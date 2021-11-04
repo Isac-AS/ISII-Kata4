@@ -11,7 +11,7 @@ import kata4.model.Mail;
 
 public class MailListReader {
     
-    public List<Mail> read (String fileName) {
+    public static List<Mail> read (String fileName) {
         
         ArrayList<Mail> list = new ArrayList<>();
         

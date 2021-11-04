@@ -27,11 +27,11 @@ public class Kata4 {
     }
     
     private static void input() {
-        mailList = new MailListReader().read(fileName);
+        mailList = MailListReader.read(fileName);
     }
     
     private static void process() {
-        histogram = new MailHistogramBuilder().build(mailList);
+        histogram = MailHistogramBuilder.build(mailList);
     }
 
     private static void output() {
